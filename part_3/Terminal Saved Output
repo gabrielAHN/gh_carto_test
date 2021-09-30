@@ -1,0 +1,421 @@
+welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-1018-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Sep 30 18:52:04 UTC 2021
+
+  System load:           0.1
+  Usage of /:            6.6% of 19.32GB
+  Memory usage:          40%
+  Swap usage:            0%
+  Processes:             101
+  Users logged in:       0
+  IPv4 address for eth0: 172.26.6.187
+  IPv6 address for eth0: 2a05:d01c:849:3400:6f94:a26c:fcad:2d6
+
+0 updates can be installed immediately.
+0 of these updates are security updates.
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-26-6-187:~$ sudo apt-get update
+Hit:1 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:3 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]   
+Get:4 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Get:5 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB
+]
+Get:6 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/universe Translation-en [5124 kB
+]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [907 kB]
+Get:8 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/universe amd64 c-n-f Metadata [2
+65 kB]
+Get:9 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [144 k
+B]
+Get:10 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/multiverse Translation-en [104 
+kB]
+Get:11 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/multiverse amd64 c-n-f Metadata
+ [9136 B]
+Get:12 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [12
+56 kB]
+Get:13 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [26
+5 kB]
+Get:14 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metada
+ta [14.4 kB]
+Get:15 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packag
+es [485 kB]
+Get:16 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/restricted Translation-
+en [69.4 kB]
+Get:17 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f 
+Metadata [504 B]
+Get:18 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages
+ [864 kB]
+Get:19 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/universe Translation-en
+ [184 kB]
+Get:20 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Me
+tadata [19.1 kB]
+Get:21 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packag
+es [24.6 kB]
+Get:22 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-
+en [6776 B]
+Get:23 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f 
+Metadata [620 B]
+Get:24 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [
+2568 B]
+Get:25 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/main Translation-en [
+1120 B]
+Get:26 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Meta
+data [400 B]
+Get:27 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/restricted amd64 c-n-
+f Metadata [116 B]
+Get:28 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packag
+es [5800 B]
+Get:29 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/universe Translation-
+en [2068 B]
+Get:30 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f 
+Metadata [276 B]
+Get:31 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 c-n-
+f Metadata [116 B]
+Get:32 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [173 kB]
+Get:33 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [8824 B]
+Get:34 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [446 kB]
+Get:35 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [64.0 kB]
+Get:36 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [50
+8 B]
+Get:37 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [641 kB]
+Get:38 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [102 kB]
+Get:39 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [12.5
+ kB]
+Get:40 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [21.9 kB]
+Get:41 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [4948 B]
+Get:42 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [54
+0 B]
+Fetched 20.2 MB in 4s (5491 kB/s)                                
+Reading package lists... Done
+ubuntu@ip-172-26-6-187:~$ sudo apt-get install -y --no-install-recommends \
+>     apt-transport-https \
+>     ca-certificates \
+>     curl \
+>     software-properties-common
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libcurl4 python3-software-properties
+The following NEW packages will be installed:
+  apt-transport-https
+The following packages will be upgraded:
+  ca-certificates curl libcurl4 python3-software-properties software-properties-common
+5 upgraded, 1 newly installed, 0 to remove and 211 not upgraded.
+Need to get 581 kB of archives.
+After this operation, 162 kB of additional disk space will be used.
+Get:1 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 ca-certificat
+es all 20210119~20.04.2 [145 kB]
+Get:2 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/universe amd64 apt-trans
+port-https all 2.0.6 [4680 B]
+Get:3 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 curl amd64 7.
+68.0-1ubuntu2.7 [161 kB]
+Get:4 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl4 amd6
+4 7.68.0-1ubuntu2.7 [234 kB]
+Get:5 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 software-prop
+erties-common all 0.98.9.5 [10.6 kB]
+Get:6 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-softw
+are-properties all 0.98.9.5 [25.1 kB]
+Fetched 581 kB in 0s (5280 kB/s)                  
+Preconfiguring packages ...
+(Reading database ... 59624 files and directories currently installed.)
+Preparing to unpack .../0-ca-certificates_20210119~20.04.2_all.deb ...
+Unpacking ca-certificates (20210119~20.04.2) over (20190110ubuntu1.1) ...
+Selecting previously unselected package apt-transport-https.
+Preparing to unpack .../1-apt-transport-https_2.0.6_all.deb ...
+Unpacking apt-transport-https (2.0.6) ...
+Preparing to unpack .../2-curl_7.68.0-1ubuntu2.7_amd64.deb ...
+Unpacking curl (7.68.0-1ubuntu2.7) over (7.68.0-1ubuntu2.1) ...
+Preparing to unpack .../3-libcurl4_7.68.0-1ubuntu2.7_amd64.deb ...
+Unpacking libcurl4:amd64 (7.68.0-1ubuntu2.7) over (7.68.0-1ubuntu2.1) ...
+Preparing to unpack .../4-software-properties-common_0.98.9.5_all.deb ...
+Unpacking software-properties-common (0.98.9.5) over (0.98.9.1) ...
+Preparing to unpack .../5-python3-software-properties_0.98.9.5_all.deb ...
+Unpacking python3-software-properties (0.98.9.5) over (0.98.9.1) ...
+Setting up apt-transport-https (2.0.6) ...
+Setting up ca-certificates (20210119~20.04.2) ...
+Updating certificates in /etc/ssl/certs...
+21 added, 20 removed; done.
+21 added, 20 removed; done.
+Setting up python3-software-properties (0.98.9.5) ...
+Setting up libcurl4:amd64 (7.68.0-1ubuntu2.7) ...
+Setting up curl (7.68.0-1ubuntu2.7) ...
+Setting up software-properties-common (0.98.9.5) ...
+Processing triggers for libc-bin (2.31-0ubuntu9) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for dbus (1.12.16-2ubuntu2.1) ...
+Processing triggers for ca-certificates (20210119~20.04.2) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+ubuntu@ip-172-26-6-187:~$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gp
+g --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ubuntu@ip-172-26-6-187:~$ echo \
+>     "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://do
+wnload.docker.com/linux/ubuntu \
+>     $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ubuntu@ip-172-26-6-187:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Package docker-ce is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'docker-ce' has no installation candidate
+E: Unable to locate package docker-ce-cli
+E: Unable to locate package containerd.io
+E: Couldn't find any package by glob 'containerd.io'
+E: Couldn't find any package by regex 'containerd.io'
+ubuntu@ip-172-26-6-187:~$ sudo apt-get update
+Hit:1 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-updates InRelease              
+Get:3 https://download.docker.com/linux/ubuntu focal InRelease [52.1 kB]                  
+Hit:4 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal-backports InRelease            
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease                
+Get:6 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages [10.7 kB]
+Fetched 62.9 kB in 0s (129 kB/s)
+Reading package lists... Done
+ubuntu@ip-172-26-6-187:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  docker-ce-rootless-extras docker-scan-plugin pigz slirp4netns
+Suggested packages:
+  aufs-tools cgroupfs-mount | cgroup-lite
+The following NEW packages will be installed:
+  containerd.io docker-ce docker-ce-cli docker-ce-rootless-extras docker-scan-plugin pigz
+  slirp4netns
+0 upgraded, 7 newly installed, 0 to remove and 211 not upgraded.
+Need to get 96.7 MB of archives.
+After this operation, 406 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/universe amd64 pigz amd64 2.4-1 
+[57.4 kB]
+Get:2 https://download.docker.com/linux/ubuntu focal/stable amd64 containerd.io amd64 1.4.9
+-1 [24.7 MB]
+Get:3 http://eu-west-2.ec2.archive.ubuntu.com/ubuntu focal/universe amd64 slirp4netns amd64
+ 0.4.3-1 [74.3 kB]
+Get:4 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce-cli amd64 5:20.
+10.8~3-0~ubuntu-focal [38.8 MB]
+Get:5 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce amd64 5:20.10.8
+~3-0~ubuntu-focal [21.2 MB]
+Get:6 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-ce-rootless-extras
+ amd64 5:20.10.8~3-0~ubuntu-focal [7917 kB]
+Get:7 https://download.docker.com/linux/ubuntu focal/stable amd64 docker-scan-plugin amd64 
+0.8.0~ubuntu-focal [3889 kB]
+Fetched 96.7 MB in 3s (33.1 MB/s)        
+Selecting previously unselected package pigz.
+(Reading database ... 59629 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.4-1_amd64.deb ...
+Unpacking pigz (2.4-1) ...
+Selecting previously unselected package containerd.io.
+Preparing to unpack .../1-containerd.io_1.4.9-1_amd64.deb ...
+Unpacking containerd.io (1.4.9-1) ...
+Selecting previously unselected package docker-ce-cli.
+Preparing to unpack .../2-docker-ce-cli_5%3a20.10.8~3-0~ubuntu-focal_amd64.deb ...
+Unpacking docker-ce-cli (5:20.10.8~3-0~ubuntu-focal) ...
+Selecting previously unselected package docker-ce.
+Preparing to unpack .../3-docker-ce_5%3a20.10.8~3-0~ubuntu-focal_amd64.deb ...
+Unpacking docker-ce (5:20.10.8~3-0~ubuntu-focal) ...
+Selecting previously unselected package docker-ce-rootless-extras.
+Preparing to unpack .../4-docker-ce-rootless-extras_5%3a20.10.8~3-0~ubuntu-focal_amd64.deb 
+...
+Unpacking docker-ce-rootless-extras (5:20.10.8~3-0~ubuntu-focal) ...
+Selecting previously unselected package docker-scan-plugin.
+Preparing to unpack .../5-docker-scan-plugin_0.8.0~ubuntu-focal_amd64.deb ...
+version:'3.7'
+services:
+   postgres:
+      image:postgres:10.5
+      volumes:
+        - ./data/db:/var/lib/postgresql/data
+      environment:
+        - POSTGRES_DB=postgres
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+volumes:  
+   data_volume:
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+~                                                                                          
+"docker-compose.yml" 12L, 270C written
+ubuntu@ip-172-26-6-187:~$ cat docker-compose.yml
+version: '3.7'
+services:
+   postgres:
+      image: postgres:10.5
+      volumes:
+        - ./data/db:/var/lib/postgresql/data
+      environment:
+        - POSTGRES_DB=postgres
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+volumes:
+   data_volume:
+ubuntu@ip-172-26-6-187:~$ sudo docker-compose up -d
+Creating network "ubuntu_default" with the default driver
+Creating volume "ubuntu_data_volume" with default driver
+Pulling postgres (postgres:10.5)...
+10.5: Pulling from library/postgres
+f17d81b4b692: Pull complete
+c1f213be5edb: Pull complete
+9c79723dc510: Pull complete
+603a66804109: Pull complete
+b4f1b901e523: Pull complete
+99d9650419de: Pull complete
+02d87bb25bad: Pull complete
+333a24caa91e: Pull complete
+9cab7935ece2: Pull complete
+5977bf28967d: Pull complete
+74ddd26cf783: Pull complete
+07b76fcb42dd: Pull complete
+7da7962ee038: Pull complete
+0ddc5f8e0873: Pull complete
+Digest: sha256:e19acdab213d6318565a6da5fb824ca5161e99fe63dbc37036557aacb35fae51
+Status: Downloaded newer image for postgres:10.5
+Creating ubuntu_postgres_1 ... done
+ubuntu@ip-172-26-6-187:~$ sudo docker volume ls
+DRIVER    VOLUME NAME
+local     ubuntu_data_volume
+ubuntu@ip-172-26-6-187:~$ sudo docker volume inspect ubuntu_data_volume
+[
+    {
+        "CreatedAt": "2021-09-30T18:59:19Z",
+        "Driver": "local",
+        "Labels": {
+            "com.docker.compose.project": "ubuntu",
+            "com.docker.compose.version": "1.25.3",
+            "com.docker.compose.volume": "data_volume"
+        },
+        "Mountpoint": "/var/lib/docker/volumes/ubuntu_data_volume/_data",
+        "Name": "ubuntu_data_volume",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+ubuntu@ip-172-26-6-187:~$ sudo docker ps
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS         PORT
+S      NAMES
+ada8c5617cd5   postgres:10.5   "docker-entrypoint.s…"   3 minutes ago   Up 3 minutes   5432
+/tcp   ubuntu_postgres_1
+ubuntu@ip-172-26-6-187:~$ sudo docker stop ada8c5617cd5 
+ada8c5617cd5
+ubuntu@ip-172-26-6-187:~$ sudo docker ps -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS             
+        PORTS     NAMES
+ada8c5617cd5   postgres:10.5   "docker-entrypoint.s…"   3 minutes ago   Exited (0) 7 second
+s ago             ubuntu_postgres_1
+ubuntu@ip-172-26-6-187:~$ sudo docker ps -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS                      PORTS     NAME
+S
+ada8c5617cd5   postgres:10.5   "docker-entrypoint.s…"   3 minutes ago   Exited (0) 14 seconds ago             ubun
+tu_postgres_1
+ubuntu@ip-172-26-6-187:~$ sudo docker ps -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS                      PORTS     NAMES
+ada8c5617cd5   postgres:10.5   "docker-entrypoint.s…"   4 minutes ago   Exited (0) 33 seconds ago             ubuntu_postgres_1
+ubuntu@ip-172-26-6-187:~$ docker start ada8c5617cd5 
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.
+24/containers/ada8c5617cd5/start": dial unix /var/run/docker.sock: connect: permission denied
+Error: failed to start containers: ada8c5617cd5
+ubuntu@ip-172-26-6-187:~$ sudo docker start ada8c5617cd5 
+ada8c5617cd5
+ubuntu@ip-172-26-6-187:~$  sudo docker ps
+CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS          PORTS      NAMES
+ada8c5617cd5   postgres:10.5   "docker-entrypoint.s…"   6 minutes ago   Up 12 seconds   5432/tcp   ubuntu_postgres_1
+ubuntu@ip-172-26-6-187:~$ docker exec -it ubuntu_postgres_1 psql -U postgres
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.2
+4/containers/ubuntu_postgres_1/json": dial unix /var/run/docker.sock: connect: permission denied
+ubuntu@ip-172-26-6-187:~$ sudo docker exec -it ubuntu_postgres_1 psql -U postgres
+psql (10.5 (Debian 10.5-2.pgdg90+1))
+Type "help" for help.
+
+postgres=# SELECT * FROM pg_settings WHERE name = 'port';
+ name | setting | unit |                       category                       |                short_desc                | extra_desc |  context   | 
+vartype | source  | min_val | max_val | enumvals | boot_val | reset_val | sourcefile | sourceline | pending_restart 
+------+---------+------+------------------------------------------------------+------------------------------------------+------------+------------+-
+--------+---------+---------+---------+----------+----------+-----------+------------+------------+-----------------
+ port | 5432    |      | Connections and Authentication / Connection Settings | Sets the TCP port the server listens on. |            | postmaster | 
+integer | default | 1       | 65535   |          | 5432     | 5432      |            |            | f
+(1 row)
+
+postgres=# SELECT * FROM pg_settings WHERE name = 'port';
+ name | setting | unit |                       category                       |                short_desc                | extra_desc |  context   | vartype | source  | min_val | max_val |
+ enumvals | boot_val | reset_val | sourcefile | sourceline | pending_restart 
+------+---------+------+------------------------------------------------------+------------------------------------------+------------+------------+---------+---------+---------+---------+
+----------+----------+-----------+------------+------------+-----------------
+ port | 5432    |      | Connections and Authentication / Connection Settings | Sets the TCP port the server listens on. |            | postmaster | integer | default | 1       | 65535   |
+          | 5432     | 5432      |            |            | f
+(1 row)
+
+postgres=# SELECT version();
+                                                             version                                                              
+----------------------------------------------------------------------------------------------------------------------------------
+ PostgreSQL 10.5 (Debian 10.5-2.pgdg90+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 6.3.0-18+deb9u1) 6.3.0 20170516, 64-bit
+(1 row)
+
+postgres=# \q
+ubuntu@ip-172-26-6-187:~$ sudo docker-compose down -v --rmi all
+Stopping ubuntu_postgres_1 ... done
+Removing ubuntu_postgres_1 ... done
+Removing network ubuntu_default
+Removing volume ubuntu_data_volume
+Removing image postgres:10.5
+ubuntu@ip-172-26-6-187:~$ sudo docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+ubuntu@ip-172-26-6-187:~$ sudo docker volume ls
+DRIVER    VOLUME NAME
+ubuntu@ip-172-26-6-187:~$ ls
+data  docker-compose.yml
+ubuntu@ip-172-26-6-187:~$ sudo rm data
+rm: cannot remove 'data': Is a directory
+ubuntu@ip-172-26-6-187:~$ rm -rf data
+rm: cannot remove 'data/db': Permission denied
+ubuntu@ip-172-26-6-187:~$ sudo rm -rf data
+ubuntu@ip-172-26-6-187:~$ ls
+docker-compose.yml
+ubuntu@ip-172-26-6-187:~$ sudo rm docker-compose.yml 
+ubuntu@ip-172-26-6-187:~$ ls
+ubuntu@ip-172-26-6-187:~$ --------
